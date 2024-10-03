@@ -1,0 +1,15 @@
+.webcam-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.webcam-frame {
+    position: absolute;
+    width: 425px;
+    height: 320px;
+    background-image: url(/public/subtract.png);
+    background-size: 425px auto;
+}
